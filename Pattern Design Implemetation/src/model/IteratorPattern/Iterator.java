@@ -1,4 +1,8 @@
 package model.IteratorPattern;
 
-public class iterator {
+public interface Iterator {
+    public boolean hasNext();
+
+    public Object next();
+
 }
